@@ -74,10 +74,13 @@ const Game = () => {
             </div>
             <div className="field" ref={fieldRef}>
                 {dots.map((dot, index) => {
+                    const x = (
+                        fieldRef.current.offsetWidth - dot.size
+                    ) * dot.x / 100
                     return <Dot
                         key={`dot-${index}`} 
                         {...dot}
-                        x={(fieldRef.current.offsetWidth - dot.size) * dot.x / 100}
+                        x={x}
                         index={index} 
                         onClick={onDotClick} 
                     />;

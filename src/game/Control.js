@@ -41,11 +41,13 @@ const Control = ({ onClear }) => {
                 {
                     isRunning ? 
                         (
-                            <React.Fragment>
-                                <button onClick={togglePause}>PAUSE</button>
-                            </React.Fragment>
+                            <button onClick={togglePause}>
+                                PAUSE
+                            </button>
                         ) : (
-                            <button onClick={onStart}>START</button>
+                            <button onClick={onStart}>
+                                START
+                            </button>
                         )                        
                 }
                 <button onClick={onClear}>CLEAR</button>

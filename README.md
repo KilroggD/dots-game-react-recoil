@@ -1,3 +1,9 @@
+Falling Dots game tutorial based on React and Recoil.
+
+Create for Medium article: 
+
+Have fun! :)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

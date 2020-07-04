@@ -1,17 +1,23 @@
 .main {
     text-align: center;
-    padding: 50px;
+    padding: 25px 50px 25px 50px;
 }
 
+/* Field params */
 .field {
-    height: 600px;
-    bordeR: 2px solid black;
+    height: 500px;
+    border: 2px solid black;
     position: relative;
     overflow-y: hidden;
 }
 
+/* Dot positioning */
 .dot {
     border: 1px solid #000;
     border-radius: 50%;
     position: absolute;
+}
+
+.control__speed p, .score p {
+    margin: 5px;
 }
