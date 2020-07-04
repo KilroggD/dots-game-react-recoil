@@ -1,6 +1,6 @@
 Falling Dots game tutorial based on React and Recoil.
 
-Create for Medium article: 
+Create for Medium article: https://medium.com/@Kilrogg/writing-falling-dots-game-with-react-8b2884fa683d
 
 Have fun! :)
 
