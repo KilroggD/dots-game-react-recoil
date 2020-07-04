@@ -4,7 +4,6 @@ export const controlOptions = atom({
     key: 'controlOptions',
     default: {
         isRunning: false,
-        isPaused: false,
         speed: 5,
     },
 });
