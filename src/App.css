@@ -1,23 +1,37 @@
 .main {
     text-align: center;
-    padding: 25px 50px 25px 50px;
+    padding: 30px;
+    color: #303030;
 }
 
 /* Field params */
 .field {
     height: 500px;
-    border: 2px solid black;
+    background-color: #F8F8F8;
+    border: .5px solid #F1F1F1;
     position: relative;
     overflow-y: hidden;
+    margin: 30px;
 }
 
 /* Dot positioning */
 .dot {
-    border: 1px solid #000;
+    border: .5px solid rgba(130, 130, 130, 0.5);
+    opacity: 0.8;
     border-radius: 50%;
     position: absolute;
 }
 
-.control__speed p, .score p {
-    margin: 5px;
+p {
+    margin: 12px;
+}
+
+button {
+    background-color: #F8F8F8;
+    border: 1px solid #BBBBBB;
+    border-radius: 3px;
+    padding: 6px 18px;
+    margin: 12px;
+    color: #303030;
+    letter-spacing: 0.1em;
 }
