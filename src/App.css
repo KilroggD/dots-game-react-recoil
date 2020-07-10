@@ -7,7 +7,7 @@
 .field {
     height: 500px;
     background-color: #F8F8F8;
-    border: .5px solid #F1F1F1;
+    border: .5px solid rgba(130, 130, 130, 0.5);
     position: relative;
     overflow-y: hidden;
     margin: 1em 2em;
