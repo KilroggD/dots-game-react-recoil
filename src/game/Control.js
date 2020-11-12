@@ -66,4 +66,4 @@ const Control = ({ onClear }) => {
     )
 }
 
-export default Control;
+export default React.memo(Control);
