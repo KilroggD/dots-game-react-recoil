@@ -13,4 +13,4 @@ const Score = () => {
     );
 };
 
-export default Score;
+export default React.memo(Score);
